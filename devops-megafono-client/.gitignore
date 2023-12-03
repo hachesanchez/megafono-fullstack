@@ -1,0 +1,15 @@
+.env
+.DS_Store
+node_modules/
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+ Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+*.lnk
+
+
+ .vscode/*

@@ -1,0 +1,25 @@
+.availability-icon {
+    max-width: 25px;
+}
+
+.candidate-avatar {
+    height: 180px;
+    object-fit: cover;
+}
+
+.location {
+    color: rgb(103, 103, 103);
+}
+
+.shadow-sm {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-md {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.jobCategory-candidate {
+    color: gray;
+    font-size: 14px;
+}

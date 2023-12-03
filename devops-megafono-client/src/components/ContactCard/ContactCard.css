@@ -1,0 +1,40 @@
+.hPic {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.h1-contact {
+    font-size: 50px;
+    text-align: left;
+}
+
+.contact-text {
+    color: white;
+    font-size: 1.1em;
+}
+
+.h5-contact {
+    color: aquamarine;
+}
+
+.volver {
+    color: aquamarine;
+}
+
+.volver:hover {
+    color: #EBE215;
+}
+
+.social-media {
+    background-color: rgba(255, 255, 255, 0.735);
+    padding: 20px;
+}
+
+.contact-icon {
+    height: 25px;
+}
+
+.linkedin-icon {
+    height: 30px;
+}

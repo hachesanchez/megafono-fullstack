@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+
+  megafono-node:
+    build:
+      context: ./devops-megafono-server
+      dockerfile: Dockerfile
+    ports:
+      - '5005:5005'
+    container_name: megafono-backend
+    env_file: ./devops-megafono-server/.env
+
+  megafono-react:
+    build:
+      context: ./devops-megafono-client
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    container_name: megafono-frontend
+    env_file: ./devops-megafono-client/.env

@@ -1,0 +1,24 @@
+.job-avatar {
+    padding: 20px;
+    object-fit: cover;
+    height: 140px;
+    width: 140px;
+}
+
+.JobCard {
+    padding: 3px;
+    margin: 1px;
+}
+
+
+.languages-icon {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.location-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
