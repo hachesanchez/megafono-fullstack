@@ -1,15 +1,24 @@
-.env
-.DS_Store
+# Dependency directories
 node_modules/
+node_modules_backup/
 
+# Debug log from npm
+npm-debug.log
+
+# Environment Variables should NEVER be published
+.env
+
+# macOS
 .DS_Store
 .AppleDouble
 .LSOverride
 
- Thumbs.db
+# Windows
+Thumbs.db
 Thumbs.db:encryptable
 ehthumbs.db
 *.lnk
 
 
- .vscode/*
+# VS Code
+.vscode/*
