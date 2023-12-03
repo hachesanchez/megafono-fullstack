@@ -3,7 +3,7 @@ import './CandidateDetailsPage.css'
 import CandidateCardDetails from '../../components/CandidateCardDetails/CandidateCardDetails'
 import userService from '../../services/user.services'
 import experiencesService from '../../services/experiences.services'
-import { useContext, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import ExperienceList from '../ExperienceListPage/ExperienceListPage'
 import CandidateCardDetailsExtra from '../../components/CandidateCardDetailsExtra/CandidateCardDetailsExtra'
@@ -28,7 +28,6 @@ const CandidateDetailsPage = () => {
             .getProfile(id)
             .then(({ data }) => {
                 setUser(data)
-                // TODO: CREAR SERVICIO getUserExperiences(user_id)
                 return experiencesService.getAllExperiences()
             })
             .then(({ data }) => {

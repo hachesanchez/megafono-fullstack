@@ -1,9 +1,8 @@
-import { useContext, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import CandidatesList from '../../components/CadidatesList/CandidatesList'
 import userService from '../../services/user.services'
 import { Col, Container, Row } from "react-bootstrap"
 import Loader from '../../components/Loader/Loader'
-import { AuthContext } from "../../contexts/auth.context"
 import './CandidatesListPage.css'
 import CandidateSearch from '../../components/CandidateSearch/CandidateSearch'
 
@@ -38,7 +37,6 @@ const CandidatesListPage = () => {
 
     const handleSearch = (filters) => {
 
-        // TODO: MOVER FILTROS A API
 
         let filteredUsers = users
 

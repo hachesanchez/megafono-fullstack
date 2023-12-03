@@ -133,7 +133,6 @@ const JobDetailsCard = ({ title, jobCategory, description, grossSalary, contract
                                     <li><strong className='prop-name'>Posibilidad de teletrabajar:</strong>  {remoteJob ? (<>Sí</>) : (<>No</>)}   </li>
                                     <li><strong className='prop-name'>Fecha de incorporación </strong>  {formatDate(startDate)} </li>
 
-                                    {/* TODO: NO LLEGAN LOS IDIOMAS */}
                                     {languages.length === 0 ? (
                                         <li>
                                             <strong className='prop-name'>Idiomas solicitados:</strong> No se especificaron idiomas.

@@ -166,7 +166,6 @@ const JobEditForm = ({ onJobTitleChange }) => {
                 </Form.Select>
             </Form.Group>
 
-            {/* //TODO: NO CAMBIA LA FECHA. Formato */}
             <Form.Group className="mb-3 mt-3" controlId="startDate">
                 <Form.Label className="job-label">Fecha de inicio</Form.Label>
                 <Form.Control type="text" value={startDate} onChange={handleInputChange} name="startDate" />
